@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3baafa58a86d2834595d579b52f4cefc, type: 3}
+  m_Name: VoxelBreak
+  m_EditorClassIdentifier: 
+  id: voxel_break
+  prefab: {fileID: 5258008274242445220, guid: 8018172ac50a8204fa4cf546a970c491, type: 3}
+  releaseLifetime: 5

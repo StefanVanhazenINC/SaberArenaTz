@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45716f2e5e44411e9a29ec871d38e669, type: 3}
+  m_Name: MAC-10
+  m_EditorClassIdentifier: 
+  _weaponData:
+    Name: MAC-10
+    Icon: {fileID: 0}
+    Id: w_mac10
+    FireRate: 0.05
+    ValueShot: 1
+    Damage: 1
+    ShootingMode: 0
+    ShooterPrototype:
+      rid: 5326668018271125504
+    ReloadingPrototype:
+      rid: 5326668018271125505
+    AltWeaponUse:
+      rid: -2
+    WeaponDataModules:
+    - rid: 5326668018271125506
+  _visualContainer: {fileID: 6875252927416226349, guid: caa1dbd879e84ae4fbe0ff99929a89ab, type: 3}
+  _baseModel: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5326668018271125504
+      type: {class: ProjectileShooter, ns: _Project.Scripts._Common.Weapon.Base.TypeShooter.BaseTypeShooter, asm: Assembly-CSharp}
+      data:
+        _projectilePrefab: {fileID: 774169320060719787, guid: 1b3d2bc0e424d364986f6d689e27ed4d, type: 3}
+        _projectileInShoot: 1
+        _lifeTimeProjectile: 10
+        _speedProjectile: 150
+        _lineChekcMask:
+          serializedVersion: 2
+          m_Bits: 128
+        _distanceCheck: 1.5
+        _lineCheckRadius: 0.08
+        _shootAfterAnimation: 0
+    - rid: 5326668018271125505
+      type: {class: MagReloading, ns: _Project.Scripts._Common.Weapon.Base.TypeReloading.BaseTypeReloading, asm: Assembly-CSharp}
+      data:
+        _magSize: 45
+        _stockSize: 500
+        _delayAfterShot: 0.1
+        _timeReloading: 0.5
+        _timeTacticalReloading: 0.5
+        _delayReloading: 0
+        _infinityStock: 1
+        _infinityMag: 0
+    - rid: 5326668018271125506
+      type: {class: WeaponSpread, ns: _Project.Scripts.Weapon.AdditionalWeaponModules, asm: Assembly-CSharp}
+      data:
+        _spread: 1
+        _strenghtSpread: 0.7
+        _speedReturnToDefault: 5

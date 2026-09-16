@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3baafa58a86d2834595d579b52f4cefc, type: 3}
+  m_Name: enemy_spawn
+  m_EditorClassIdentifier: 
+  id: enemy_spawn
+  prefab: {fileID: 2372745235159517489, guid: be555513cf3b90140ad80360a8697d8a, type: 3}
+  releaseLifetime: 5
+  customParams:
+  - key: spawnDelay
+    type: 0
+    floatValue: 0.5
+    intValue: 0
+    boolValue: 0
+    stringValue: 
+    vector3Value: {x: 0, y: 0, z: 0}
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
